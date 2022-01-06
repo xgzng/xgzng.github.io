@@ -1,0 +1,26 @@
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>zxp的vue练习</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>
+</head>
+
+<body>
+
+    <div id="app">
+        <input type="text" v-model="message"/>
+        {{message}}
+    </div>
+    <script>
+        var vue=new Vue({
+           el:"#app",
+            /*model数据*/
+            data:{
+                message:"hello,vue"
+            }
+        });
+    </script>
+</body>
+
+</html>
